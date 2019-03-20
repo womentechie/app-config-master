@@ -9,7 +9,8 @@ management:
 logging: # <----New sections below
   level:
     io:
-      pivotal: INFO
+      pivotal:
+        cloudnativespring: INFO
 
 greeting:
   displayFortune: true
