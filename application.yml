@@ -9,7 +9,8 @@ management:
 logging:
   level:
     io:
-      pivotal: INFO
+      pivotal
+        cloudnativespring: INFO
 
 spring: # <---NEW SECTION
   cloud:
